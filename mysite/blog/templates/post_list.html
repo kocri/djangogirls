@@ -6,6 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-    안녕하세요.
+        <ul>
+        {% for post in posts %}
+        <ul>
+          {{ post }} / {{ post.author }}
+        <ul>
+        {% endfor %}
+        <ul>
     </body>
 </html>
