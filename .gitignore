@@ -97,8 +97,10 @@ ENV/
 # mkdocs documentation
 /site
 
-vagrant
+#vagrant
 .vagrant
 
-sqlite3
+#sqlite3
 .sqlite3
+
+local_settings.py
