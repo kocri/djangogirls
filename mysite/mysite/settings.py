@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-     'raven.contrib.django.raven_compat',
+    'raven.contrib.django.raven_compat',
 ]
 
 MIDDLEWARE = [
